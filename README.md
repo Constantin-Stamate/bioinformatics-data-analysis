@@ -4,7 +4,7 @@ This repository contains tools and scripts for analyzing biological sequence dat
 
 ---
 
-## 🔬 Genomic Analysis
+## Genomic Analysis
 
 This genomic analysis involves a series of bioinformatics steps to process and assess the quality of sequencing data:
 
@@ -16,7 +16,7 @@ This genomic analysis involves a series of bioinformatics steps to process and a
 
 ---
 
-## 🧬 Metagenomic Analysis
+## Metagenomic Analysis
 
 This metagenomic analysis workflow focuses on profiling microbial communities from sequencing data:
 
@@ -30,7 +30,7 @@ This approach enables efficient and accurate characterization of complex microbi
 
 ---
 
-## 🧠 Transcriptomic Profiling in *C. elegans*
+## Transcriptomic Profiling in *C. elegans*
 
 This RNA-Seq analysis focuses on the transcriptional comparison between *C. elegans* camt-1 mutants and wild-type neuronal cells:
 
@@ -44,7 +44,7 @@ This workflow supports the study of gene regulation in specific neuronal populat
 
 ---
 
-## ⚙️ Unix-based Genomic Feature Extraction
+## Unix-based Genomic Feature Extraction
 
 This pipeline showcases how Unix shell tools can be used to manipulate large-scale genomic annotation data:
 
@@ -58,7 +58,7 @@ This approach is ideal for high-throughput filtering, conversion, and extraction
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 This analysis was developed as part of the **Bioinformatics Bootcamp** organized at **UTM (Technical University of Moldova)**.
 
