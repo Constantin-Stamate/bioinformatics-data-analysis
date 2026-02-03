@@ -2,8 +2,6 @@
 
 This repository contains tools and scripts for analyzing biological sequence data. It includes workflows for genomic and metagenomic data processing, taxonomic profiling, transcriptomic experiments, and regular-expression-based feature extraction, aimed at supporting bioinformatics research and applications.
 
----
-
 ## Genomic Analysis
 
 This genomic analysis involves a series of bioinformatics steps to process and assess the quality of sequencing data:
@@ -13,8 +11,6 @@ This genomic analysis involves a series of bioinformatics steps to process and a
 - **Indexing**: The reference genome is indexed using the [Burrows-Wheeler Aligner (BWA)](http://bio-bwa.sourceforge.net/), allowing for rapid and accurate alignment.
 - **Alignment**: Sequencing reads are aligned to the indexed reference genome using the BWA-MEM algorithm, producing alignment files in SAM format.
 - **Quality Control**: [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) is used to generate detailed quality reports, including sequence length distribution, GC content, and per-base quality metrics.
-
----
 
 ## Metagenomic Analysis
 
@@ -28,8 +24,6 @@ This metagenomic analysis workflow focuses on profiling microbial communities fr
 
 This approach enables efficient and accurate characterization of complex microbial populations from environmental or host-associated samples.
 
----
-
 ## Transcriptomic Profiling in *C. elegans*
 
 This RNA-Seq analysis focuses on the transcriptional comparison between *C. elegans* camt-1 mutants and wild-type neuronal cells:
@@ -42,8 +36,6 @@ This RNA-Seq analysis focuses on the transcriptional comparison between *C. eleg
 
 This workflow supports the study of gene regulation in specific neuronal populations and helps reveal transcriptional changes due to genetic mutations.
 
----
-
 ## Unix-based Genomic Feature Extraction
 
 This pipeline showcases how Unix shell tools can be used to manipulate large-scale genomic annotation data:
@@ -55,8 +47,6 @@ This pipeline showcases how Unix shell tools can be used to manipulate large-sca
 - **Automation**: The process is scripted for reproducibility and efficiency, supporting fast preprocessing of large datasets.
 
 This approach is ideal for high-throughput filtering, conversion, and extraction of genomic data prior to in-depth analysis or visualization.
-
----
 
 ## Author
 
